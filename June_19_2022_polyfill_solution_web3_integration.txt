@@ -1,0 +1,480 @@
+
+ubuntu@ip-172-31-15-252:~/packt3/src$ history
+    1  ls
+    2  curl -sL https://deb.nodesource.com/setup_14.x -o nodesource_setup.sh
+    3  sudo bash nodesource_setup.sh
+    4  sudo apt install nodejs
+    5  sudo apt install npm
+    6  sudo apt-get webpack@3.0.0
+    7  sudo apt-get install webpack@3.0.0
+    8  npm install webpack@3.0.0
+    9  npm install webpack-cli@3.0.8 --legacy-peer-deps
+   10  npm install node-gyp@3.6.2
+   11  npm install truffle@5.1.39
+   12  npm install web3
+   13  npm install create-react-app
+   14  ls
+   15  history
+   16  ./node_modules/.bin/create-react-app packt
+   17  history
+   18  cd packt
+   19  ls
+   20  npm start
+   21  npm install
+   22  ls
+   23  cd ..
+   24  ls
+   25  ./node_modules/.bin/create-react-app packt
+   26  ls ./node_modules/.bin/ganache-cli --port 8545  --chainId 5777  -h ec2-34-220-144-108.us-west-2.compute.amazonaws.com
+   27  ./node_modules/.bin/ganache-cli --port 8545  --chainId 5777  -h ec2-34-219-43-80.us-west-2.compute.amazonaws.com
+   28  pwd
+   29  npm install ganache-cli
+   30  ./node_modules/.bin/ganache-cli --port 8545  --chainId 5777  -h ec2-34-219-43-80.us-west-2.compute.amazonaws.com
+   31  ls
+   32  cd packt
+   33  ls
+   34  mkdir contract
+   35  cd contract
+   36  vi voting.sol
+   37  ls
+   38  cd ..
+   39  ls
+   40  cd contract
+   41  pwd
+   42  /home/ubuntu/packt/node_modules/.bin/truffle
+   43  /home/ubuntu/node_modules/.bin/truffle
+   44  /home/ubuntu/node_modules/.bin/truffle deploy
+   45  vi truffle-config.js
+   46  ls
+   47  /home/ubuntu/node_modules/.bin/truffle deploy
+   48  /home/ubuntu/node_modules/.bin/truffle migrate
+   49  ls
+   50  /home/ubuntu/node_modules/.bin/truffle deploy
+   51  ls
+   52  cat voting.sol
+   53  ls
+   54  cat truffle-config.js
+   55  ls
+   56  cd ..
+   57  ls
+   58  cd src
+   59  ls
+   60  cd ..
+   61  ls
+   62  cd contract
+   63  ls
+   64  cd ..
+   65  ls
+   66  pwd
+   67  cd node_modules/
+   68  ls
+   69  cd ..
+   70  ls
+   71  pwd
+   72  cd pactk
+   73  cd packt
+   74  ls
+   75  cd contract
+   76  ls
+   77  cd ..
+   78  ls
+   79  cd src
+   80  ls
+   81  vi Appljs
+   82  vi App.js
+   83  npm start
+   84  ls
+   85  cd ..
+   86  ls
+   87  cd contract
+   88  ls
+   89  pwd
+   90  /home/ubuntu/node_modules/.bin/solcjs --bin --abi v
+   91  ls
+   92  cd ..
+   93  /home/ubuntu/packt/contract
+   94  ubuntu@ip-172-31-15-252:~/packt/contract$ /home/ubuntu/node_modules/.bin/solcjs --bin --abi v
+   95  -bash: /home/ubuntu/node_modules/.bin/solcjs: No such file or directory
+   96  ubuntu@ip-172-31-15-252:~/packt/contract$ ls
+   97  /home/ubuntu/packt/contract
+   98  ubuntu@ip-172-31-15-252:~/packt/contract$ /home/ubuntu/node_modules/.bin/solcjs --bin --abi v
+   99  -bash: /home/ubuntu/node_modules/.bin/solcjs: No such file or directory
+  100  ubuntu@ip-172-31-15-252:~/packt/contract$ ls
+  101  npm install solc
+  102  /home/ubuntu/node_modules/.bin/solcjs
+  103  cd packt
+  104  ls
+  105  cd contract
+  106  /home/ubuntu/node_modules/.bin/solcjs
+  107  ls
+  108  cp voting.sol  Voting.sol
+  109  ls
+  110  rm voting.sol
+  111  /home/ubuntu/node_modules/.bin/solcjs  Voting.sol
+  112  /home/ubuntu/node_modules/.bin/solcjs  Voting.sol --abi
+  113  vi Voting.js
+  114  ls
+  115  vi Voting.sol
+  116  /home/ubuntu/node_modules/.bin/solcjs  Voting.sol --abi
+  117  /home/ubuntu/node_modules/.bin/solcjs  Voting.sol --bin
+  118  ls
+  119  vi Voting_sol_Voting.bin
+  120  vi Voting_sol_Voting.abi
+  121  ls
+  122  vi Voting_sol_Voting.abi
+  123  cat Voting_sol_Voting.abi
+  124  ls
+  125  cd ..
+  126  ls
+  127  cd contract/
+  128  ls
+  129  cd ..
+  130  ls
+  131  cd public
+  132  ls
+  133  cd ..
+  134  ls
+  135  cd contract
+  136  history
+  137  /home/ubuntu/node_modules/.bin/truffle deploy
+  138  /home/ubuntu/node_modules/.bin/truffle compile
+  139  ls
+  140  cd build
+  141  ls
+  142  cd contracts
+  143  ls
+  144  history
+  145  ls
+  146  cd packt
+  147  ls
+  148  mkdir migrations
+  149  cd migrations
+  150  ls
+  151  vi 1_initial_migrations.js
+  152  vi 2_deploy_contracts.js
+  153  vi 1_initial_migrations.js
+  154  vi 2_deploy_contracts.js
+  155  ls
+  156  cd ..
+  157  ls
+  158  cd ..
+  159  ./node_modules/.bin/ganache-cli --port 8545  --chainId 5777  -h ec2-54-189-9-183.us-west-2.compute.amazonaws.com
+  160  cd packt
+  161  ls
+  162  cd contract
+  163  ls
+  164  pwd
+  165  /home/ubuntu/node_modules/.bin/truffle migrate
+  166  /home/ubuntu/node_modules/.bin/truffle deploy
+  167  ls
+  168  vi truffle-config.js
+  169  ls
+  170  /home/ubuntu/node_modules/.bin/truffle migrate
+  171  /home/ubuntu/node_modules/.bin/truffle deploy
+  172  ls
+  173  cd build
+  174  ls
+  175  cd contracts/
+  176  ls
+  177  cd ..
+  178  ls
+  179  cd ..
+  180  ls
+  181  vi Migrations.sol
+  182  /home/ubuntu/node_modules/.bin/truffle migrate
+  183  /home/ubuntu/node_modules/.bin/truffle deploy
+  184  ls
+  185  cd build
+  186  ls
+  187  cd contracts/
+  188  ls
+  189  cd ..
+  190  ls
+  191  cat Voting_sol_Voting.abi
+  192  /home/ubuntu/node_modules/.bin/truffle migrate --reset
+  193  ls
+  194  cd buils
+  195  cd build
+  196  ls
+  197  cd contracts/
+  198  ls
+  199  /home/ubuntu/node_modules/.bin/truffle compile
+  200  ls
+  201  cd ..
+  202  /home/ubuntu/node_modules/.bin/truffle compile
+  203  /home/ubuntu/node_modules/.bin/truffle init
+  204  ls
+  205  vi truffle-config.js
+  206  cp  truffle-config.js ..
+  207  ls
+  208  cd ..
+  209  ls
+  210  /home/ubuntu/node_modules/.bin/truffle compile
+  211  vi truffle-config.js
+  212  /home/ubuntu/node_modules/.bin/truffle compile
+  213  vi truffle-config.js
+  214  /home/ubuntu/node_modules/.bin/truffle compile
+  215  vi truffle-config.js
+  216  /home/ubuntu/node_modules/.bin/truffle compile
+  217  /home/ubuntu/node_modules/.bin/truffle migrate
+  218  cd contract/
+  219  ls
+  220  cd migrations
+  221  ls
+  222  cd build
+  223  cd ..
+  224  cd build
+  225  ls
+  226  cd contracts
+  227  ls
+  228  cd ..
+  229  ls
+  230  rm truffle-config.js
+  231  ls
+  232  cd ..
+  233  ls
+  234  /home/ubuntu/node_modules/.bin/truffle migrate
+  235  /home/ubuntu/node_modules/.bin/truffle compile
+  236  /home/ubuntu/node_modules/.bin/truffle migrate
+  237  cd ..
+  238  ls
+  239  cd packt
+  240  ls
+  241  cd migrations
+  242  ls
+  243  cat 1_initial_migrations.js
+  244  cd ..
+  245  cd contracts
+  246  cd contract/
+  247  ls
+  248  cd migrations
+  249  ls
+  250  vi 1_initial_migration.js
+  251  ls
+  252  cd ..
+  253  ls
+  254  cd contract
+  255  ls
+  256  cd ..
+  257  /home/ubuntu/node_modules/.bin/truffle compile
+  258  /home/ubuntu/node_modules/.bin/truffle migrate
+  259  vi truffle_config.js
+  260  ls
+  261  vi truffle-config.js
+  262  /home/ubuntu/node_modules/.bin/truffle compile
+  263  vi truffle-config.js
+  264  /home/ubuntu/node_modules/.bin/truffle compile
+  265  vi truffle-config.js
+  266  /home/ubuntu/node_modules/.bin/truffle compile
+  267  /home/ubuntu/node_modules/.bin/truffle migrate
+  268  ls
+  269  cd migrations
+  270  ls
+  271  vi 1_initial_migrations.js
+  272  cd ..
+  273  /home/ubuntu/node_modules/.bin/truffle deploy
+  274  ls
+  275  cd migrations
+  276  ls
+  277  vi 1_initial_migrations.js
+  278  /home/ubuntu/node_modules/.bin/truffle deploy
+  279  ls
+  280  mkdir packt2
+  281  cd packt2
+  282  /home/ubuntu/node_modules/.bin/truffle init
+  283  ls
+  284  cd contracts
+  285  ls
+  286  vi Migrations.sol
+  287  ls
+  288  cd ..
+  289  ls
+  290  cd migrations
+  291  ls
+  292  cd ..
+  293  ls
+  294  vi truffle-config.js
+  295  cp truffle-config.js truffle-config.js_back
+  296  vi truffle-config.js
+  297  ls
+  298  cd migrations
+  299  ls
+  300  vi 2_deploy_contracts.js
+  301  ls
+  302  cd ..
+  303  ls
+  304  cd contracts
+  305  ls
+  306  vi Voting.sol
+  307  cd ..
+  308  /home/ubuntu/node_modules/.bin/truffle migrate
+  309  cd contract
+  310  cd contracts/
+  311  ls
+  312  vi Voting.sol
+  313  cd ..
+  314  /home/ubuntu/node_modules/.bin/truffle migrate
+  315  cd contracts/`
+cd contracts/
+vi Voting.sol
+  316  cd contracts
+  317  vi Voting.sol
+  318  cd ..
+  319  /home/ubuntu/node_modules/.bin/truffle migrate
+  320  ls
+  321  cd contracts
+  322  ls
+  323  cd ..
+  324  ls
+  325  cd bulid
+  326  cd build
+  327  ls
+  328  cd contracts
+  329  ls
+  330  cat Voting.json
+  331  ls
+  332  cat Migrations.json
+  333  ls
+  334  rm *.json
+  335  ls
+  336  cd ..
+  337  ls
+  338  history
+  339  ls
+  340  cd buld
+  341  cd build
+  342  ls
+  343  cd contracts
+  344  ls
+  345  cd ..
+  346  /home/ubuntu/node_modules/.bin/truffle migrate
+  347  ls
+  348  cd migtations
+  349  ls
+  350  cd migrations/
+  351  ls
+  352  vi 2_deploy_contracts.js
+  353  cd ..
+  354  ls
+  355  /home/ubuntu/node_modules/.bin/truffle migrate
+  356  cd migrations/
+  357  ls
+  358  vi 2_deploy_contracts.js
+  359  cd ..
+  360  /home/ubuntu/node_modules/.bin/truffle migrate
+  361  cd migrations/
+  362  ls
+  363  vi 2_deploy_contracts.js
+  364  cd ..
+  365  /home/ubuntu/node_modules/.bin/truffle migrate
+  366  cd migrations/
+  367  ls
+  368  vi 2_deploy_contracts.js
+  369  /home/ubuntu/node_modules/.bin/truffle migrate
+  370  vi 2_deploy_contracts.js
+  371  /home/ubuntu/node_modules/.bin/truffle migrate
+  372  ls
+  373  /home/ubuntu/node_modules/.bin/truffle deploy
+  374  cd ..
+  375  ls
+  376  cd build
+  377  ls
+  378  cd contracts
+  379  ls
+  380  cat Migrations.json
+  381  cd ..
+  382  ls
+  383  /home/ubuntu/node_modules/.bin/truffle test
+  384  history
+  385  /home/ubuntu/node_modules/.bin/truffle develop
+  386  /home/ubuntu/node_modules/.bin/truffle    developer
+  387  /home/ubuntu/node_modules/.bin/truffle    development
+  388  /home/ubuntu/node_modules/.bin/truffle    deploy
+  389  /home/ubuntu/node_modules/.bin/truffle    development
+  390  /home/ubuntu/node_modules/.bin/truffle    console
+  391  ls
+  392  cd migrations
+  393  ls
+  394  cat 2_deploy_contracts.js
+  395  cd ..
+  396  ls
+  397  ./node_modules/.bin/create-react-app packt3
+  398  cd packt3
+  399  ls
+  400  /home/ubuntu/node_modules/.bin/truffle init
+  401  ls
+  402  cd migrations
+  403  vi 2_deploy_contracts.js
+  404  ls
+  405  cat 2_deploy_contracts.js
+  406  cd ..
+  407  cd contracts
+  408  ls
+  409  vi Voting.sol
+  410  cd ..
+  411  /home/ubuntu/node_modules/.bin/truffle deploy
+  412  vi truffle-config.js
+  413  /home/ubuntu/node_modules/.bin/truffle deploy
+  414  cat truffle-config.js
+  415  cd migrations
+  416  ls
+  417  cat 2_deploy_contracts.js
+  418  cd ..
+  419  /home/ubuntu/node_modules/.bin/truffle deploy
+  420  ls
+  421  cd build
+  422  ls
+  423  cd contracts
+  424  ls
+  425  cat Voting.json
+  426  cd ..
+  427  ls
+  428  cd src
+  429  ls
+  430  vi App.js
+  431  cp App.js App.js_backup
+  432  vi App.js
+  433  cd ..
+  434  npm install --save-dev react-app-rewired
+  435  npm install --save-dev crypto-browserify stream-browserify assert stream-http https-browserify os-browserify url buffer process
+  436  ls
+  437  cd packt3
+  438  ls
+  439  vi config-overrides.js
+  440  vi package.json
+  441  npm run start
+  442  npm install --save-dev react-app-rewired
+  443  npm install --save-dev crypto-browserify stream-browserify assert stream-http https-browserify os-browserify url buffer process
+  444  npm run start
+  445  cd src
+  446  ls
+  447  vi App.js
+  448  npm run start
+  449  ls
+  450  vi App.js
+  451  npm run start
+  452  vi App.js
+  453  npm run start
+  454  vi App.js
+  455  npm run start
+  456  vi App.js
+  457  cd ..
+  458  cd migrations
+  459  ls
+  460  cat 2_deploy_contracts.js
+  461  cd ..
+  462  cd src
+  463  ls
+  464  vi App.js
+  465  npm run start
+  466  vi App.js
+  467  npm run start
+  468  vi App.js
+  469  /home/ubuntu/node_modules/.bin/truffle deploy
+  470  vi App.js
+  471  npm run start
+  472  vi App.js
+  473  npm run start
+  474  ls
+  475  vi App.js
+  476  history
